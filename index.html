@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="./style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <section class="form">
+            <select type="day" id="dayOfWeekInput" class="dayOfWeek"/>
+                <option value="MONDAY">Monday</option>
+                <option value="TUESDAY">Tuesday</option>
+                <option value="WEDNESDAY">Wednesday</option>
+                <option value="THURSDAY">Thursday</option>
+                <option value="FRIDAY">Friday</option>
+                <option value="SATURDAY">Saturday</option>
+                <option value="SUNDAY">Sunday</option>
+            </select>
+            <input type="time" class="time-input" id="time-input" />
+            <input type="button" value="Send" id="send" class="send">
+            <div>
+                <p id="output" class="output"></p></div>
+        </section>
+        <script src="./node_modules/moment/min/moment.min.js"></script>
+        <script src="./node_modules/twix/dist/twix.min.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>
